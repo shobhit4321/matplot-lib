@@ -1,0 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt 
+def vector(rows,cols):
+   a=np.random.rand(rows,cols)
+   return  plt.scatter(a[:,0],a[:,1] )
+       
+vector(2000,2)
